@@ -13,6 +13,9 @@ button {
   display:none;
 }
 
+#javascript {
+  background-color: red;
+}
 #important {
   color: red;
 }

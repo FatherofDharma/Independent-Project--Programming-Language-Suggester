@@ -6,9 +6,9 @@ $(document).ready(function(){
     var delight = $("input:radio[name=delight]:checked").val();
     var color = $("input:radio[name=color]:checked").val();
     var travel = $("input:radio[name=travel]:checked").val();
-    
-    $("#language").hide();
 
+    $("#language").hide();
+    $("#javascript").show();
 
     event.preventDefault();
   });
