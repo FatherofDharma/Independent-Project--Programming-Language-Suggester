@@ -10,12 +10,9 @@ $(document).ready(function(){
     $("#language").hide();
     $("#javascript").show();
     $("#ruby").show();
+    $("#python").show();
     event.preventDefault();
   });
-
-  // $("button#resetForm").click(function() {
-  //   document.getElementById("language").resetForm("#language");
-  // });
 
   $("#resetForm").click(function() {
     document.getElementById("language").reset();

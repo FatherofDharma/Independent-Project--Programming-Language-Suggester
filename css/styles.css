@@ -14,13 +14,14 @@ button {
 }
 
 #javascript {
-  background-color: red;
+  background-image: url("../img/yellow_stone.jpg");
+  background-size: cover;
   border-style: outset;
+  padding: 5px;
   margin: 5px;
 }
 
 #ruby {
-  /* background-color: #9b111e; */
   background-image: url("../img/ruby.png");
   background-size: cover;
   border-style: outset;;
@@ -28,6 +29,14 @@ button {
   margin: 5px;
   color: white;
 }
+#python {
+  background-image: url("../img/ice.jpg");
+  border-style: outset;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
 #important {
   color: red;
 }
