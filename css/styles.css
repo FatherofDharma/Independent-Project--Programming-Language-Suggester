@@ -8,6 +8,10 @@ button {
   background-color: #581072;
   color: white;
 }
+
+#important {
+  color: red;
+}
 /* h3 {
   font-family: sans-serif;
   color:
