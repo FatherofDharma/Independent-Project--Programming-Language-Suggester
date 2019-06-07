@@ -11,18 +11,93 @@
     <form class="form" action="index.html" method="post"
     <div class="container">
       <h1>Which programming languages might be right for you?</h1>
+      <!-- This section determines favorite weather value. -->
+      <h3>What is your favorite kind of weather?</h3>
 
-      <h2>What is your favorite kind of weather?</h2>
-      <select class="form-control" id="weather">
-        <option>Select one</option>
-        <option>Sunny</option>
-        <option>Cloudy</option>
-        <option>Rainy</option>
-        <option>Snowy</option>
-      </select>
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="none" checked>
+          I don't have a favorite.
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="sunny">
+          Show me the Sun!
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="cloudy">
+          I love it coudy!
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="rainy">
+          Make it RAIN!
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="snowy">
+          Bring on the snow!
+        </label>
+      </div>
+      <!-- This section determines favorite beverage value. -->
+      <h3>What is your preferred non-alcoholic drink to have with your favorite weather?</h3>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="none" checked>
+          I don't have a favorite drink, and I make baby pandas sad.
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="lemonade">
+          Lemonade, and I might even sell some.
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="iced_tea">
+          Iced tea, with a lime(NO lemon!!)!
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="cocoa">
+          Hot cocoa with marshmallows, please!
+        </label>
+      </div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="drink" value="coffee">
+          Coffee, the Earth's gift to humanity!
+        </label>
+      </div>
+
     </div>
 
     <button type="submit" class="btn">Tell me about my languages!</button>
-
+  </form>
   </body>
 </html>
+
+
+<!-- <select class="form-control" id="weather">
+  <option>Select one</option>
+  <option>Sunny</option>
+  <option>Cloudy</option>
+  <option>Rainy</option>
+  <option>Snowy</option>
+</select> -->
