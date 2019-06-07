@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
+    <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
@@ -11,182 +12,171 @@
 <!--Introduction and initial explanation of the page. -->
     <p>Are you a new student of programming? Have you found yourself wondering what language you should choose first? Look no farther! The questions below will help determine your personality and what language may best suit your temperament. Choose a selection from each category, then click the button to find out what language you are best suited for.</p>
     <h5 id="important">These suggestions are only meant to get you started and do not reflect any studies, specific data, or the opinion of the creator.</h5>
-    <form id="language" action="index.html" method="post"
-    <div class="container">
-      <h1>Which programming languages might be right for you?</h1>
+    <form id="language" action="index.html" method="post">
+      <div class="container">
+        <h1>Which programming languages might be right for you?</h1>
 <!-- This section determines favorite weather value. -->
-      <h3>What is your favorite kind of weather?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="none" checked>
-          I don't have a favorite.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="sunny">
-          Show me the Sun!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="cloudy">
-          I love it coudy!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="rainy">
-          Make it RAIN!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="weather" value="snowy">
-          Bring on the snow!
-        </label>
-      </div>
-      <!-- This section determines favorite beverage value. -->
-      <h3>What is your preferred non-alcoholic drink to have with your favorite weather?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="drink" value="none" checked>
-          I don't have a favorite drink, and I make baby pandas sad.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="drink" value="lemonade">
-          Lemonade, and I might even sell some.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="drink" value="iced_tea">
-          Iced tea, with a lime(NO lemon!!)!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="drink" value="cocoa">
-          Hot cocoa with marshmallows, please!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="drink" value="coffee">
-          Coffee, the Earth's gift to humanity!
-        </label>
-      </div>
+        <h3>What is your favorite kind of weather?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="none" checked>
+            I don't have a favorite.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="sunny">
+            Show me the Sun!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="cloudy">
+            I love it coudy!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="rainy">
+            Make it RAIN!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="snowy">
+            Bring on the snow!
+          </label>
+        </div>
+<!-- This section determines favorite beverage value. -->
+        <h3>What is your preferred non-alcoholic drink to have with your favorite weather?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="none" checked>
+            I don't have a favorite drink, and I make baby pandas sad.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="lemonade">
+            Lemonade, and I might even sell some.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="iced_tea">
+            Iced tea, with a lime(NO lemon!!)!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="cocoa">
+            Hot cocoa with marshmallows, please!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="drink" value="coffee">
+            Coffee, the Earth's gift to humanity!
+          </label>
+        </div>
 <!-- This section determines the delight value. -->
-      <h3>What is the way you show your delight in this weather?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="delight" value="none" checked>
-          I am  a stone. I must not show joy. Showing my joy will break the universe.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="delight" value="dance">
-          I will dance like no one is watching!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="delight" value="shout">
-          I will WHOOP with delight and shout for all to hear!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="delight" value="giggle">
-          I will giggle uncontrollably through out the day, enjoying my custom ordered weather.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="delight" value="party">
-          I will invite people to come enjoy the weather with me!
-        </label>
-      </div>
+        <h3>What is the way you show your delight in this weather?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="delight" value="none" checked>
+            I am  a stone. I must not show joy. Showing my joy will break the universe.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="delight" value="dance">
+            I will dance like no one is watching!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="delight" value="shout">
+            I will WHOOP with delight and shout for all to hear!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="delight" value="giggle">
+            I will giggle uncontrollably through out the day, enjoying my custom ordered weather.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="delight" value="party">
+            I will invite people to come enjoy the weather with me!
+          </label>
+        </div>
 <!-- This section determines the color value. -->
-      <h3>What is your favorite basic color?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="none" checked>
-          I don't have a favorite color.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="red">
-          Red, like a ripe dark cherry!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="blue">
-          Blue, like the deepest part of the ocean!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="green">
-          Green, like the grass on rolling hills!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="color" value="black">
-          Black, as dark as my soul!
-        </label>
-      </div>
+        <h3>What is your favorite basic color?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="none" checked>
+            I don't have a favorite color.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="red">
+            Red, like a ripe dark cherry!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="blue">
+            Blue, like the deepest part of the ocean!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="green">
+            Green, like the grass on rolling hills!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="black">
+            Black, as dark as my soul!
+          </label>
+        </div>
 <!-- This section determines the travel value. -->
-      <h3>What is your favorite way to travel?</h3>
-      <div class="radio">
-        <label>
-          <input type="radio" name="travel" value="none" checked>
-          None, I don't get out much.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="travel" value="walk">
-          I prefer to walk wherever I need to go.
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="travel" value="run">
-          I like to run, like my pants are on fire! Cardio!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="travel" value="bike">
-          I like to ride my bicycle, I like to ride my bike!
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="travel" value="drive">
-          Drive, I feel the need for SPEED!
-        </label>
-      </div>
-
-      <button type="submit" class="btn">Tell me about my languages!</button>
-
+        <h3>What is your favorite way to travel?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="travel" value="none" checked>
+            None, I don't get out much.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="travel" value="walk">
+            I prefer to walk wherever I need to go.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="travel" value="run">
+            I like to run, like my pants are on fire! Cardio!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="travel" value="bike">
+            I like to ride my bicycle, I like to ride my bike!
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="travel" value="drive">
+            Drive, I feel the need for SPEED!
+          </label>
+        </div>
+        <button type="submit" class="btn">Tell me about my languages!</button>
       </div>
     </form>
   </body>
 </html>
-
-
-<!-- <select class="form-control" id="weather">
-  <option>Select one</option>
-  <option>Sunny</option>
-  <option>Cloudy</option>
-  <option>Rainy</option>
-  <option>Snowy</option>
-</select> -->
