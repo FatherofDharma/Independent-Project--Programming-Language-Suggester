@@ -31,7 +31,7 @@ _There are currently no known bugs._
 * _HTML_
 * _CSS_
 * _Bootstrap_
-* _Javascript_
+* _JavaScript_
 * _jQuery_
 
 ### License
