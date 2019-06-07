@@ -17,6 +17,7 @@ button {
   background-image: url("../img/yellow_stone.jpg");
   background-size: cover;
   border-style: outset;
+  font-weight: bold;
   padding: 5px;
   margin: 5px;
 }
@@ -24,14 +25,17 @@ button {
 #ruby {
   background-image: url("../img/ruby.png");
   background-size: cover;
+  font-weight: bold;
   border-style: outset;;
   padding: 5px;
   margin: 5px;
   color: white;
 }
+
 #python {
   background-image: url("../img/ice.jpg");
   border-style: outset;
+  font-weight: bold;
   padding: 5px;
   margin: 5px;
   color: white;
@@ -40,7 +44,3 @@ button {
 #important {
   color: red;
 }
-/* h3 {
-  font-family: sans-serif;
-  color:
-} */
