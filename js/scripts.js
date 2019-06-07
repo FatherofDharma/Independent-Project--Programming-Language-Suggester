@@ -12,4 +12,12 @@ $(document).ready(function(){
     $("#ruby").show();
     event.preventDefault();
   });
+
+  // $("button#resetForm").click(function() {
+  //   document.getElementById("language").resetForm("#language");
+  // });
+
+  $("#resetForm").click(function() {
+    document.getElementById("language").reset();
+  });
 });
