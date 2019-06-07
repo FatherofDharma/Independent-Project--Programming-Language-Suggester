@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     $("#language").hide();
     $("#javascript").show();
-
+    $("#ruby").show();
     event.preventDefault();
   });
 });

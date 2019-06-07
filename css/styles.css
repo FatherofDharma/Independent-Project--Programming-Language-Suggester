@@ -15,6 +15,18 @@ button {
 
 #javascript {
   background-color: red;
+  border-style: outset;
+  margin: 5px;
+}
+
+#ruby {
+  /* background-color: #9b111e; */
+  background-image: url("../img/ruby.png");
+  background-size: cover;
+  border-style: outset;;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
 #important {
   color: red;
