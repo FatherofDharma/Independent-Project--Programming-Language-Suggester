@@ -9,10 +9,18 @@ button {
   color: white;
 }
 
-#ruby, #javascript, #python {
+#ruby, #javascript, #python, #three {
   display:none;
 }
-
+#three {
+  background-image: url("../img/blueslate.jpg");
+  background-size: cover;
+  border-style: outset;
+  font-weight: bold;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
 #javascript {
   background-image: url("../img/yellow_stone.jpg");
   background-size: cover;

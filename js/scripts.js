@@ -25,6 +25,7 @@ $(document).ready(function(){
         $("#python").show();
       } else {
         $("#language").hide();
+        $("#three").show();
         $("#ruby").show();
         $("#python").show();
         $("#javascript").show();
