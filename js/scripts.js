@@ -1,38 +1,35 @@
-$(document).ready(function(){
-  $("#language").submit(function(event) {
+//Business Logic
 
-      var weather = $("input:radio[name=weather]:checked").val();
-      var drink = $("input:radio[name=drink]:checked").val();
-      var delight = $("input:radio[name=delight]:checked").val();
-      var color = $("input:radio[name=color]:checked").val();
-      var travel = $("input:radio[name=travel]:checked").val();
-      var three = ("You got all three!")
+//Interface Logic Section
+$(document).ready(function () {
+  $('#language').submit(function (event) {
+    var weather = parseInt($('input:radio[name=weather]:checked').val());
+    var drink = parseInt($('input:radio[name=drink]:checked').val());
+    var delight = parseInt($('input:radio[name=delight]:checked').val());
+    var color = parseInt($('input:radio[name=color]:checked').val());
+    var travel = parseInt($('input:radio[name=travel]:checked').val());
+    var total = weather + drink + delight + color + travel;
 
-      if (weather === "none" && drink === "none") {
-        $("#language").hide();
-        $("#javascript").show();
-      } else if (weather === "sunny" && drink === "lemonade" ) {
-        $("#language").hide();
-        $("#ruby").show();
-      } else if (weather === "cloudy" && drink === "coffee") {
-        $("#language").hide();
-        $("#python").show();
-      }  else if (weather === "rainy" && drink === "coffee") {
-        $("#language").hide();
-        $("#python").show();
-      } else if (weather === "snowy" && drink === "cocoa") {
-        $("#language").hide();
-        $("#python").show();
-      } else {
-        $("#language").hide();
-        $("#three").show();
-        $("#ruby").show();
-        $("#python").show();
-        $("#javascript").show();
-      };
-      event.preventDefault();
+    // hide the form 'language' after form submission.
+    $('#language').hide();
+
+    if (total >= 16 && total <= 20) {
+      $('#javascript').show();
+    } else if (total >= 11 && total <= 15) {
+      $('#python').show();
+    } else if (total >= 6 && total <= 10) {
+      $('#ruby').show();
+    } else {
+      $('#three').show();
+      $('#ruby').show();
+      $('#python').show();
+      $('#javascript').show();
+    }
+
+    event.preventDefault();
   });
-  $("#resetForm").click(function() {
-    document.getElementById("language").reset();
+
+  $('#resetForm').click(function () {
+    document.getElementById('language').reset();
   });
 });
